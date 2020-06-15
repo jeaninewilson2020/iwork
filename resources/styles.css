@@ -1,0 +1,32 @@
+
+
+.title-nav-wrapper {
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+
+.main-nav ul li
+ {
+     text-align: right;
+     margin: auto;
+     list-style-type: none;
+   
+ }
+
+ ul {
+     display: flex;
+     flex-wrap: wrap;
+  
+ }
+
+ .page-description {
+     text-align: center;
+ }
+
+ .inner-description-container {
+     display: inline-block;
+     margin: 0 auto;
+     width: 50%;
+     padding: 180px; 
+ }
