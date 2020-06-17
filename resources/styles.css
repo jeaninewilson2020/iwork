@@ -132,3 +132,19 @@ header.active {
 .description h2 {
     font-style: italic; 
 }
+
+#main-image img{
+    background: url('images/two-women.jpg') center center cover no-repeat local;
+    height: 100%;
+    width: 100%;
+    background-color: black; 
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url('images/bg.jpg');
+    }
+    #main-image {
+        background-image: url('images/two-women.jpg')
+    }
+}
