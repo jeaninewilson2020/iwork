@@ -23,15 +23,30 @@ html, body, h1, h2, h3, h4, h5, h6, div {
  }
 
 
-.title-nav-wrapper {
+header {
     box-sizing: border-box;
     position: fixed; 
     cursor: pointer;
     padding-left: 20px; 
     width: 100%;
     text-decoration: none;
+    z-index: 100; 
     color: black; 
+    background: transparent;
 }
+
+header.active {
+    box-sizing: border-box;
+    position: fixed; 
+    cursor: pointer;
+    padding-left: 20px; 
+    width: 100%;
+    text-decoration: none;
+    z-index: 100; 
+    color: white; 
+    background: black; 
+}
+
 
 .title-nav-wrapper a:hover {
     opacity: 0.7; 
@@ -91,4 +106,13 @@ html, body, h1, h2, h3, h4, h5, h6, div {
 
  .join-us:hover {
      opacity: 0.8;
+ }
+
+ .description {
+    display: inline-block;
+    margin: 0 auto;
+    width: 50%;
+    padding: 140px; 
+    margin-top: 30px; 
+    text-align: center; 
  }
